@@ -1,0 +1,7 @@
+success: Joia (LogFileMixin)
+Error: Qualquer coisa (LogFileMixin)
+success: Joia (LogFileMixin)
+Error: Qualquer coisa (LogFileMixin)
+success: Joia (LogFileMixin)
+success: Galaxy M14 está ligado (Smartphone)
+Error: iphone 12 está desligado (Smartphone)
