@@ -26,4 +26,4 @@ class D(B,C):
 d = D()
 d.quem_sou()
 print(D.__mro__)
-print(D.mro())
+print(D.mro())  
