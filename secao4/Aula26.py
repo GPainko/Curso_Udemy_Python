@@ -7,7 +7,7 @@ if qtd_argumentos <= 1:
     print('Voce não passou argumentos')
 else:
     try:
-        print(f'oce passou os argumentos {argumentos[1:]}')
+        print(f'você passou os argumentos {argumentos[1:]}')
         print(f'Faça alguma coisa com {argumentos[1]}')
         print(f'Faça outra coisa com {argumentos[2]}')
     except IndexError:
