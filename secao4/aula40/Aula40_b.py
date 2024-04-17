@@ -21,6 +21,11 @@ row: tuple[Cell]
 for row in worksheet.iter_rows(min_row=2):
     for cell in row:
         print(cell.value, end='\t')
+
+        if cell.value == 'Maria':
+            worksheet.cell(cell.row, 2, 15)
     print()
 
-# workbook.save(WORKBOOK_PATH)
+# worksheet['B3'].value = 14
+
+workbook.save(WORKBOOK_PATH)
